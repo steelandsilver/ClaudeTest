@@ -24,10 +24,14 @@ Everything lives in `tictactoe.html`:
 
 ## Git workflow
 
-Commit and push after every meaningful change:
+**After every meaningful unit of work, commit and push.** This keeps GitHub as a reliable snapshot of current progress and ensures no work is ever lost.
+
+- Commit when a feature is added, a bug is fixed, or any notable change is made — don't batch unrelated changes into one commit
+- Write clean, descriptive commit messages that explain *what* changed and *why*
+- Always push immediately after committing
 
 ```bash
 git add <file> && git commit -m "<message>" && git push
 ```
 
-Remote: `https://github.com/steelandsilver/ClaudeTest`
+Remote: `https://github.com/steelandsilver/ClaudeTest` (private)
